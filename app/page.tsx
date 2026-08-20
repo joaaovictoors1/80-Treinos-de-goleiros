@@ -17,23 +17,23 @@ import { FinalCta } from '@/components/final-cta';
 import { Footer } from '@/components/footer';
 
 const carrossel1 = [
-  { image: '/images/treinos/treino-011.webp', title: 'Treino 011 — Reflexo em curta distância' },
-  { image: '/images/treinos/treino-021.webp', title: 'Treino 021 — Queda lateral básica' },
-  { image: '/images/treinos/treino-032.webp', title: 'Treino 032 — Fechamento de ângulo básico' },
-  { image: '/images/treinos/treino-045.webp', title: 'Treino 045 — Cruzamento curto na pequena área' },
-  { image: '/images/treinos/treino-051.webp', title: 'Treino 051 — Fechamento de ângulo no 1x1' },
-  { image: '/images/treinos/treino-061.webp', title: 'Treino 061 — Passe curto com precisão' },
-  { image: '/images/treinos/treino-072.webp', title: 'Treino 072 — Reflexo + segunda defesa' },
-  { image: '/images/treinos/treino-080.webp', title: 'Treino 080 — Circuito completo do goleiro' },
+  { image: '/images/treinos/treino-011.png', title: 'Treino 011 — Reflexo em curta distância' },
+  { image: '/images/treinos/treino-021.png', title: 'Treino 021 — Queda lateral básica' },
+  { image: '/images/treinos/treino-032.png', title: 'Treino 032 — Fechamento de ângulo básico' },
+  { image: '/images/treinos/treino-045.png', title: 'Treino 045 — Cruzamento curto na pequena área' },
+  { image: '/images/treinos/treino-051.png', title: 'Treino 051 — Fechamento de ângulo no 1x1' },
+  { image: '/images/treinos/treino-061.png', title: 'Treino 061 — Passe curto com precisão' },
+  { image: '/images/treinos/treino-072.png', title: 'Treino 072 — Reflexo + segunda defesa' },
+  { image: '/images/treinos/treino-080.png', title: 'Treino 080 — Circuito completo do goleiro' },
 ];
 
 const carrossel2 = [
-  { image: '/images/categorias/sub-7.webp', title: 'Sub-7 — Iniciação ao goleiro' },
-  { image: '/images/categorias/sub-9.webp', title: 'Sub-9 — Fundamentos e coordenação' },
-  { image: '/images/categorias/sub-11.webp', title: 'Sub-11 — Quedas e defesas' },
-  { image: '/images/categorias/sub-13.webp', title: 'Sub-13 — Posicionamento e reação' },
-  { image: '/images/categorias/sub-15.webp', title: 'Sub-15 — Saídas e bolas aéreas' },
-  { image: '/images/categorias/sub-17.webp', title: 'Sub-17 — Situações de jogo' },
+  { image: '/images/categorias/sub-7.png', title: 'Sub-7 — Iniciação ao goleiro' },
+  { image: '/images/categorias/sub-9.png', title: 'Sub-9 — Fundamentos e coordenação' },
+  { image: '/images/categorias/sub-11.png', title: 'Sub-11 — Quedas e defesas' },
+  { image: '/images/categorias/sub-13.png', title: 'Sub-13 — Posicionamento e reação' },
+  { image: '/images/categorias/sub-15.png', title: 'Sub-15 — Saídas e bolas aéreas' },
+  { image: '/images/categorias/sub-17.png', title: 'Sub-17 — Situações de jogo' },
 ];
 
 export default function Page() {

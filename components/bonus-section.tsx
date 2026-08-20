@@ -11,14 +11,14 @@ export function BonusSection() {
       title: '20 Treinos para Fazer com Apenas 1 Goleiro',
       price: 'R$ 29,00',
       num: '2',
-      image: '/images/bonus-treinos-1-goleiro.webp',
+      image: '/images/bonus-treinos-1-goleiro.png',
       description: 'Exercícios pensados para aqueles dias em que você precisa conduzir o treinamento com somente um goleiro disponível.',
     },
     {
       title: 'Planner de Treinos para Goleiros',
       price: 'R$ 19,90',
       num: '3',
-      image: '/images/bonus-planner-goleiros.webp',
+      image: '/images/bonus-planner-goleiros.png',
       description: 'Ficha prática para organizar objetivos, exercícios, duração e distribuição dos treinamentos durante a semana.',
     },
   ];

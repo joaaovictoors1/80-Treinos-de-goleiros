@@ -19,7 +19,7 @@ export function Testimonials() {
         'Gostei principalmente da organização. Eu consigo escolher o fundamento que quero trabalhar e já tenho montagem, execução e correções na mesma página. O diagrama também ajuda muito na hora de preparar o treino.',
       name: 'Lucas Ferreira',
       role: 'Treinador de Goleiros — Goiânia/GO',
-      photo: '/images/testimonials/lucas-ferreira.jpeg',
+      photo: '/images/testimonials/lucas-ferreira.png',
       objectPosition: '50% 32%',
     },
     {
@@ -27,7 +27,7 @@ export function Testimonials() {
         'O material é muito fácil de consultar. Tem exercícios para fundamentos diferentes e consigo utilizar as progressões e adaptações dependendo da categoria que estou trabalhando.',
       name: 'Rafael Martins',
       role: 'Treinador de Categoria de Base — Brasília/DF',
-      photo: '/images/testimonials/rafael-martins.jpeg',
+      photo: '/images/testimonials/rafael-martins.png',
       objectPosition: '50% 28%',
     },
     {
@@ -35,7 +35,7 @@ export function Testimonials() {
         'Eu estava procurando justamente novas opções para não ficar repetindo sempre os mesmos exercícios. Agora consigo abrir pelo celular e escolher rapidamente o que quero trabalhar naquele dia.',
       name: 'Camila Rocha',
       role: 'Professora de Educação Física — São Paulo/SP',
-      photo: '/images/testimonials/camila-rocha.jpeg',
+      photo: '/images/testimonials/camila-rocha.png',
       objectPosition: '50% 30%',
     },
   ];
@@ -57,11 +57,11 @@ export function Testimonials() {
             <div
               key={item.name}
               className="flex flex-col gap-5 p-8 md:p-9"
-              style={{ backgroundColor: '#F7F5F0', border: '1px solid #D8D4CD', borderRadius: '20px' }}
+              style={{ backgroundColor: '#F6F4EF', border: '1px solid #D9DDD9', borderRadius: '20px' }}
             >
               <StarRow />
 
-              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#4E5358' }}>
+              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#5D625F' }}>
                 &ldquo;{item.quote}&rdquo;
               </p>
 
@@ -80,7 +80,7 @@ export function Testimonials() {
                   />
                 </div>
                 <div className="flex flex-col text-left">
-                  <span className="font-semibold text-sm" style={{ color: '#17191C' }}>
+                  <span className="font-semibold text-sm" style={{ color: '#101313' }}>
                     {item.name}
                   </span>
                   <span className="text-xs" style={{ color: '#8A8F94' }}>
