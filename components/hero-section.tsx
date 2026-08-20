@@ -17,7 +17,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
               <span style={{ color: '#7BE0A3' }}>80 Treinos Prontos para Goleiros</span> Da Iniciação às Categorias de Base
             </h1>
             <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-2xl" style={{ color: '#D5DDD8' }}>
-              Tenha treinos completos e organizados para trabalhar reflexo, quedas, posicionamento, saídas do gol, bolas aéreas, situações de 1x1, jogo com os pés e muito mais — com execução passo a passo, adaptações e diagramas visuais.
+              Tenha treinos completos e organizados para trabalhar reflexo, quedas, posicionamento, saídas do gol, bolas aéreas, situações de 1x1, jogo com os pés e muito mais. Execução passo a passo, adaptações e diagramas visuais.
             </p>
           </div>
           <div className="w-full flex justify-center py-2 sm:py-4 md:py-6 overflow-visible">
