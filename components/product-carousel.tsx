@@ -37,11 +37,11 @@ const subtitleMap: Record<string, string> = {
 function CarouselCard({ title, image }: { title: string; image: string }) {
   if (image) {
     return (
-      <div className="relative w-full h-full rounded-2xl overflow-hidden">
+      <div className="relative w-full h-full rounded-2xl overflow-hidden" style={{ backgroundColor: '#FFFFFF' }}>
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-contain"
+          className="w-full h-full object-cover object-top"
           decoding="async"
         />
       </div>
