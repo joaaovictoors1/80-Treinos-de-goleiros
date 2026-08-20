@@ -16,23 +16,25 @@ import { FinalCta } from '@/components/final-cta';
 import { Footer } from '@/components/footer';
 
 const carrossel1 = [
-  { image: '/images/treinos/treino-011.png', title: 'Treino 011 — Reflexo em curta distância' },
-  { image: '/images/treinos/treino-021.png', title: 'Treino 021 — Queda lateral básica' },
-  { image: '/images/treinos/treino-032.png', title: 'Treino 032 — Fechamento de ângulo básico' },
-  { image: '/images/treinos/treino-045.png', title: 'Treino 045 — Cruzamento curto na pequena área' },
-  { image: '/images/treinos/treino-051.png', title: 'Treino 051 — Fechamento de ângulo no 1x1' },
-  { image: '/images/treinos/treino-061.png', title: 'Treino 061 — Passe curto com precisão' },
-  { image: '/images/treinos/treino-072.png', title: 'Treino 072 — Reflexo + segunda defesa' },
-  { image: '/images/treinos/treino-080.png', title: 'Treino 080 — Circuito completo do goleiro' },
+  { image: '/images/treinos/treino-039.webp', title: 'Treino 039 — Reposição e Reposicionamento Defensivo' },
+  { image: '/images/treinos/treino-024.webp', title: 'Treino 024 — Defesa Meia-Altura com Deslocamento' },
+  { image: '/images/treinos/treino-020.webp', title: 'Treino 020 — Circuito de Reflexo e Recuperação' },
+  { image: '/images/treinos/treino-035.webp', title: 'Treino 035 — Cobertura do Gol em Movimentação Ofensiva' },
+  { image: '/images/treinos/treino-049.webp', title: 'Treino 049 — Rebatida Orientada em Bola Aérea' },
+  { image: '/images/treinos/treino-042.webp', title: 'Treino 042 — Saída no 1x1 com Ataque à Bola' },
+  { image: '/images/treinos/treino-062.webp', title: 'Treino 062 — Domínio Orientado e Passe' },
+  { image: '/images/treinos/treino-030.webp', title: 'Treino 030 — Circuito de Quedas e Defesas' },
 ];
 
 const carrossel2 = [
-  { image: '/images/categorias/sub-7.png', title: 'Sub-7 — Iniciação ao goleiro' },
-  { image: '/images/categorias/sub-9.png', title: 'Sub-9 — Fundamentos e coordenação' },
-  { image: '/images/categorias/sub-11.png', title: 'Sub-11 — Quedas e defesas' },
-  { image: '/images/categorias/sub-13.png', title: 'Sub-13 — Posicionamento e reação' },
-  { image: '/images/categorias/sub-15.png', title: 'Sub-15 — Saídas e bolas aéreas' },
-  { image: '/images/categorias/sub-17.png', title: 'Sub-17 — Situações de jogo' },
+  { image: '/images/treinos/treino-073.webp', title: 'Treino 073 — Saída do Gol + Reposição Rápida' },
+  { image: '/images/treinos/treino-060.webp', title: 'Treino 060 — Circuito de Decisões no 1x1' },
+  { image: '/images/treinos/treino-080b.webp', title: 'Treino 080 — Circuito Completo do Goleiro' },
+  { image: '/images/treinos/treino-078.webp', title: 'Treino 078 — Cruzamento + Segunda Bola' },
+  { image: '/images/treinos/treino-058.webp', title: 'Treino 058 — Saída Baixa no Pé do Atacante' },
+  { image: '/images/treinos/treino-040.webp', title: 'Treino 040 — Circuito de Posicionamento Completo' },
+  { image: '/images/treinos/treino-069.webp', title: 'Treino 069 — Construção Rápida após Defesa' },
+  { image: '/images/treinos/treino-066.webp', title: 'Treino 066 — Jogo com os Pés sob Pressão' },
 ];
 
 export default function Page() {
