@@ -31,7 +31,7 @@ export function BonusSection() {
           RECEBA 3 BÔNUS PARA COMPLETAR SEUS TREINOS
         </h2>
         <p className="text-base sm:text-lg max-w-2xl" style={{ color: '#D7ECDF' }}>
-          Materiais complementares para variar as sessões e facilitar ainda mais o planejamento.
+          Materiais complementares para variar as sessões de treinamento e facilitar ainda mais o planejamento.
         </p>
       </div>
 
