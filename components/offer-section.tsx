@@ -19,7 +19,7 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
     { bold: '+10', text: 'Treinos Combinados e Situações de Jogo', type: 'main' },
     { text: 'Bônus #1 — 20 Aquecimentos Específicos para Goleiros', type: 'bonus' },
     { text: 'Bônus #2 — 20 Treinos para Fazer com Apenas 1 Goleiro', type: 'bonus' },
-    { text: 'Bônus #3 — Planner de Treinos para Goleiros', type: 'bonus' },
+    { text: 'Bônus #3 — Calendário de Treinos para Goleiros', type: 'bonus' },
   ];
 
   return (
