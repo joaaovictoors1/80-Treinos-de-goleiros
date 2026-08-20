@@ -4,7 +4,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
   const scrollToOffer = () => document.getElementById('checkout')?.scrollIntoView({ behavior: 'smooth' });
 
   return (
-    <section className="w-full py-12 sm:py-16 md:py-24 lg:py-32 bg-background overflow-hidden">
+    <section className="w-full py-12 sm:py-16 md:py-24 lg:py-32 overflow-hidden" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content flex flex-col items-center">
         <div className="w-full flex flex-col items-center gap-6 sm:gap-8 md:gap-12">
           <div className="text-center">
@@ -13,10 +13,10 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
             </p>
           </div>
           <div className="w-full flex flex-col items-center gap-4 sm:gap-5">
-            <h1 className="font-grotesk text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-pretty text-center max-w-4xl" style={{ color: '#101313' }}>
-              <span style={{ color: '#003F2D' }}>80 Treinos Prontos para Goleiros</span> Da Iniciação às Categorias de Base
+            <h1 className="font-grotesk text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-pretty text-center max-w-4xl" style={{ color: '#FFFFFF' }}>
+              <span style={{ color: '#7BE0A3' }}>80 Treinos Prontos para Goleiros</span> Da Iniciação às Categorias de Base
             </h1>
-            <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-2xl" style={{ color: '#5D625F' }}>
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-2xl" style={{ color: '#D5DDD8' }}>
               Tenha treinos completos e organizados para trabalhar reflexo, quedas, posicionamento, saídas do gol, bolas aéreas, situações de 1x1, jogo com os pés e muito mais — com execução passo a passo, adaptações e diagramas visuais.
             </p>
           </div>
@@ -55,10 +55,10 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
             >
               QUERO ACESSAR OS 80 TREINOS
             </button>
-            <p className="text-xs sm:text-sm text-center" style={{ color: '#4E5358' }}>Acesso imediato no seu WhatsApp ou e-mail após a confirmação do pagamento.</p>
+            <p className="text-xs sm:text-sm text-center" style={{ color: '#D5DDD8' }}>Acesso imediato no seu WhatsApp ou e-mail após a confirmação do pagamento.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-6 pt-2">
-            {['Pagamento único', 'Consulte quando precisar', '7 dias de garantia', 'Acesso imediato'].map((label) => <div key={label} className="flex items-center gap-1.5 text-xs sm:text-sm font-medium" style={{ color: '#30343A' }}><span className="rounded-full flex items-center justify-center text-white text-[10px] font-bold" style={{ backgroundColor: '#16C766', width: '18px', height: '18px' }}>✓</span>{label}</div>)}
+            {['Pagamento único', 'Consulte quando precisar', '7 dias de garantia', 'Acesso imediato'].map((label) => <div key={label} className="flex items-center gap-1.5 text-xs sm:text-sm font-medium" style={{ color: '#FFFFFF' }}><span className="rounded-full flex items-center justify-center text-white text-[10px] font-bold" style={{ backgroundColor: '#22C55E', width: '18px', height: '18px' }}>✓</span>{label}</div>)}
           </div>
         </div>
       </div>

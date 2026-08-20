@@ -37,11 +37,11 @@ export function FAQ() {
   ];
 
   return (
-    <section className="w-full py-14 px-0 bg-background">
+    <section className="w-full py-14 px-0" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
         <h2
           className="font-grotesk text-center uppercase"
-          style={{ color: '#17191C', fontSize: '32px', fontWeight: 700, marginBottom: '28px', lineHeight: 1.2 }}
+          style={{ color: '#FFFFFF', fontSize: '32px', fontWeight: 700, marginBottom: '28px', lineHeight: 1.2 }}
         >
           Perguntas Frequentes
         </h2>
@@ -54,10 +54,10 @@ export function FAQ() {
                 key={idx}
                 style={{
                   backgroundColor: '#FFFFFF',
-                  border: '1px solid #DED9D1',
+                  border: '1px solid #D9DDD9',
                   borderRadius: '16px',
                   overflow: 'hidden',
-                  boxShadow: '0 5px 14px rgba(23, 25, 28, 0.05)',
+                  boxShadow: '0 5px 14px rgba(0, 0, 0, 0.12)',
                   width: '100%',
                 }}
               >
@@ -70,7 +70,7 @@ export function FAQ() {
                   <span
                     className="text-left"
                     style={{
-                      color: '#17191C',
+                      color: '#101313',
                       fontSize: '15px',
                       fontWeight: 700,
                       lineHeight: 1.35,
@@ -104,14 +104,14 @@ export function FAQ() {
                 >
                   <div
                     style={{
-                      borderTop: '1px solid #EEEAE3',
-                      backgroundColor: '#FFFDF9',
+                      borderTop: '1px solid #EDECE6',
+                      backgroundColor: '#F6F4EF',
                       padding: '19px 18px',
                     }}
                   >
                     <p
                       className="text-left"
-                      style={{ color: '#4E5358', fontSize: '15px', lineHeight: 1.6 }}
+                      style={{ color: '#333733', fontSize: '15px', lineHeight: 1.6 }}
                     >
                       {item.a}
                     </p>
