@@ -3,7 +3,6 @@
 import { useRef } from 'react';
 import { TopBar } from '@/components/top-bar';
 import { HeroSection } from '@/components/hero-section';
-import { BeforeAfterSection } from '@/components/before-after-section';
 import { ProductCarousel } from '@/components/product-carousel';
 import { HowItWorks } from '@/components/how-it-works';
 import { WhatYouGet } from '@/components/what-you-get';
@@ -43,7 +42,6 @@ export default function Page() {
     <main className="min-h-screen pt-14 sm:pt-16 md:pt-20" style={{ backgroundColor: '#003F2D' }}>
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
-      <BeforeAfterSection />
       <ProductCarousel title="Conheça os Treinos por Dentro" subtitle="Páginas visuais com objetivo, categoria indicada, nível, duração, materiais, montagem, execução, progressões, correções e diagrama." items={carrossel1} />
       <HowItWorks />
       <WhatYouGet />
