@@ -13,18 +13,18 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
             </p>
           </div>
           <div className="w-full flex flex-col items-center gap-4 sm:gap-5">
-            <h1 className="font-grotesk text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-pretty text-center max-w-4xl" style={{ color: '#17191C' }}>
-              <span style={{ color: '#F0642D' }}>200 Treinos de Atletismo</span> do Iniciante ao Avançado Prontos para Aplicar
+            <h1 className="font-grotesk text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-pretty text-center max-w-4xl" style={{ color: '#101313' }}>
+              <span style={{ color: '#003F2D' }}>80 Treinos Prontos para Goleiros</span> Da Iniciação às Categorias de Base
             </h1>
-            <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-2xl" style={{ color: '#4E5358' }}>
-              Tenha sessões completas e organizadas para velocidade, resistência, barreiras, revezamentos, saltos, arremessos e lançamentos com execução, diagramas técnicos e adaptações para diferentes públicos e níveis.
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-2xl" style={{ color: '#5D625F' }}>
+              Tenha treinos completos e organizados para trabalhar reflexo, quedas, posicionamento, saídas do gol, bolas aéreas, situações de 1x1, jogo com os pés e muito mais — com execução passo a passo, adaptações e diagramas visuais.
             </p>
           </div>
           <div className="w-full flex justify-center py-2 sm:py-4 md:py-6 overflow-visible">
             <div className="w-full max-w-2xl flex justify-center items-center">
               <img
-                src="/images/hero-mockup-completo.webp"
-                alt="Coleção completa: 200 Treinos de Atletismo e os 3 bônus — 30 Dinâmicas e Desafios, 30 Planos de Treino e Kit de Avaliação e Evolução do Atleta"
+                src="/images/hero-mockup-goleiros.png"
+                alt="Coleção completa: 80 Treinos Prontos para Goleiros e os 3 bônus — 20 Aquecimentos Específicos, 20 Treinos para 1 Goleiro e Planner de Treinos para Goleiros"
                 className="w-full h-auto max-w-md sm:max-w-lg md:max-w-2xl"
               />
             </div>
@@ -53,7 +53,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
                 e.currentTarget.style.transform = 'translateY(0)';
               }}
             >
-              QUERO ACESSAR OS 200 TREINOS
+              QUERO ACESSAR OS 80 TREINOS
             </button>
             <p className="text-xs sm:text-sm text-center" style={{ color: '#4E5358' }}>Acesso imediato no seu WhatsApp ou e-mail após a confirmação do pagamento.</p>
           </div>

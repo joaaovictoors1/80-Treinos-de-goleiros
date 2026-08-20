@@ -4,7 +4,7 @@ function StarRow() {
   return (
     <div className="flex items-center gap-1" aria-label="Avaliação de 5 estrelas">
       {Array.from({ length: 5 }).map((_, i) => (
-        <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill="#F0642D" aria-hidden="true">
+        <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill="#003F2D" aria-hidden="true">
           <path d="M12 2.5l2.9 6.3 6.9.6-5.2 4.6 1.6 6.8-6.2-3.7-6.2 3.7 1.6-6.8-5.2-4.6 6.9-.6z" />
         </svg>
       ))}
@@ -16,26 +16,26 @@ export function Testimonials() {
   const testimonials = [
     {
       quote:
-        'Gostei principalmente da organização. Os treinos estão separados por objetivo e cada página mostra o que fazer, o volume e as pausas. Isso facilita bastante na hora de escolher e preparar o treinamento.',
-      name: 'Matheus Oliveira',
-      role: 'Treinador de atletismo — Goiânia/GO',
-      photo: '/images/testimonials/matheus-oliveira.jpeg',
+        'Gostei principalmente da organização. Eu consigo escolher o fundamento que quero trabalhar e já tenho montagem, execução e correções na mesma página. O diagrama também ajuda muito na hora de preparar o treino.',
+      name: 'Lucas Ferreira',
+      role: 'Treinador de Goleiros — Goiânia/GO',
+      photo: '/images/testimonials/lucas-ferreira.jpeg',
       objectPosition: '50% 32%',
     },
     {
       quote:
-        'O material é muito visual e fácil de consultar. Os diagramas ajudam a entender a organização dos exercícios, e as adaptações por nível deixam os treinos mais fáceis de utilizar com diferentes públicos.',
-      name: 'João Cardoso',
-      role: 'Professor de Educação Física — Brasília/DF',
-      photo: '/images/testimonials/joao-cardoso.jpeg',
+        'O material é muito fácil de consultar. Tem exercícios para fundamentos diferentes e consigo utilizar as progressões e adaptações dependendo da categoria que estou trabalhando.',
+      name: 'Rafael Martins',
+      role: 'Treinador de Categoria de Base — Brasília/DF',
+      photo: '/images/testimonials/rafael-martins.jpeg',
       objectPosition: '50% 28%',
     },
     {
       quote:
-        'Eu procurava novas opções para variar meus treinos sem precisar buscar exercícios em vários lugares. Agora consigo escolher o objetivo, consultar a orientação e acompanhar tudo diretamente pelo celular.',
-      name: 'Amanda Moura',
-      role: 'Corredora Amadora — São Paulo/SP',
-      photo: '/images/testimonials/amanda-moura.jpeg',
+        'Eu estava procurando justamente novas opções para não ficar repetindo sempre os mesmos exercícios. Agora consigo abrir pelo celular e escolher rapidamente o que quero trabalhar naquele dia.',
+      name: 'Camila Rocha',
+      role: 'Professora de Educação Física — São Paulo/SP',
+      photo: '/images/testimonials/camila-rocha.jpeg',
       objectPosition: '50% 30%',
     },
   ];
@@ -44,11 +44,11 @@ export function Testimonials() {
     <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#FFFFFF' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-4 mb-12 md:mb-16">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#17191C' }}>
-            APROVADO POR QUEM VIVE O ATLETISMO
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#101313' }}>
+            APROVADO POR QUEM TRABALHA COM FUTEBOL
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5E6267' }}>
-            Veja a opinião de quem utiliza os treinos durante o planejamento, a preparação e a prática.
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5D625F' }}>
+            Veja a opinião de quem utiliza os treinos para organizar sessões e variar o trabalho com goleiros.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ export function Testimonials() {
               <div className="mt-auto pt-2 flex items-center gap-3">
                 <div
                   className="relative w-11 h-11 rounded-full flex-shrink-0 overflow-hidden"
-                  style={{ border: '2px solid #F0642D' }}
+                  style={{ border: '2px solid #003F2D' }}
                 >
                   <Image
                     src={item.photo || "/placeholder.svg"}

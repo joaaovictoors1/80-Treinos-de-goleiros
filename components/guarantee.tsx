@@ -9,7 +9,7 @@ export function Guarantee() {
           {/* Selo */}
           <div className="absolute -top-12 sm:-top-16 left-1/2 transform -translate-x-1/2 w-28 h-28 sm:w-40 sm:h-40 flex items-center justify-center">
             <img
-              src="/images/garantia-7-dias.webp"
+              src="/images/garantia-7-dias-goleiros.png"
               alt="Garantia de 7 Dias"
               className="w-full h-full object-contain drop-shadow-lg"
               loading="lazy"
@@ -23,7 +23,7 @@ export function Guarantee() {
 
             <div className="space-y-3 sm:space-y-4 text-sm sm:text-base" style={{ color: '#4E5358' }}>
               <p className="leading-relaxed">
-                Após a compra, você terá 7 dias para conhecer os 200 treinos e os materiais extras. Se o conteúdo não atender às suas expectativas, poderá solicitar o reembolso dentro desse prazo.
+                Após a compra, você terá 7 dias para conhecer os 80 treinos e os materiais extras. Se o conteúdo não atender às suas expectativas, poderá solicitar o reembolso dentro desse prazo.
               </p>
             </div>
           </div>

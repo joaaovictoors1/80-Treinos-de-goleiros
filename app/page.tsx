@@ -17,25 +17,23 @@ import { FinalCta } from '@/components/final-cta';
 import { Footer } from '@/components/footer';
 
 const carrossel1 = [
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_59_21-cIoWLKv2beJwza1QekI5GJnzpxB4G9.webp', title: 'Treino 076 — Ponto de impulsão antes da barreira' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_45_15-TVjIJTbTW49r32lvVzT1uJHfNYHZNJ.webp', title: 'Treino 010 — Circuito técnico de corrida' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_40_25-qGyLAqxCaRcuJKzvBeF4T0Uelcef6t.webp', title: 'Treino 108 — Técnica de voo em suspensão' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_42_12-I5I6tz1OzQM9IUXUQamiryMVFb6jzE.webp', title: 'Treino 199 — Desafio integrado de performance' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_42_31-tTpZJOVahxHOasq0UFHmEtnw63SNRb.webp', title: 'Treino 186 — Circuito geral do atletismo' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_49_39-s2kk0f05fmCkmx9wXHGnyIr0GK98oZ.webp', title: 'Treino 031 — Os primeiros cinco passos' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_35_29-7dPwxH4zD9CIr0j1p52VT8R2OOt3hi.webp', title: 'Treino 145 — Desafio final do salto triplo' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_40_48-7HYusgrIKuaYEFpJShDpSWYQ39FRw6.webp', title: 'Treino 109 — Aterrissagem com os dois pés' },
+  { image: '/images/treinos/treino-011.webp', title: 'Treino 011 — Reflexo em curta distância' },
+  { image: '/images/treinos/treino-021.webp', title: 'Treino 021 — Queda lateral básica' },
+  { image: '/images/treinos/treino-032.webp', title: 'Treino 032 — Fechamento de ângulo básico' },
+  { image: '/images/treinos/treino-045.webp', title: 'Treino 045 — Cruzamento curto na pequena área' },
+  { image: '/images/treinos/treino-051.webp', title: 'Treino 051 — Fechamento de ângulo no 1x1' },
+  { image: '/images/treinos/treino-061.webp', title: 'Treino 061 — Passe curto com precisão' },
+  { image: '/images/treinos/treino-072.webp', title: 'Treino 072 — Reflexo + segunda defesa' },
+  { image: '/images/treinos/treino-080.webp', title: 'Treino 080 — Circuito completo do goleiro' },
 ];
 
 const carrossel2 = [
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_38_21-keXfxm4NLeFd514npT2mTM4P0YMlkm.webp', title: 'Treino 125 — Penúltimo e último passo' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_51_30-4zb9UwTGBwKhZVtjDMgvCNonWerTa6.webp', title: 'Treino 044 — Aceleração na curva' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_55_16-6piIYwn6kurGzS5QACdewP60Ydl2b4.webp', title: 'Treino 070 — Sessão integrada de resistência e ritmo' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_39_08-ocinzkKqsgKGRPwegEpRLgCbBy0QJL.webp', title: 'Treino 115 — Passada no ar' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_44_38-GHh7pcyj89GnjujAxa9TLG7Vmv10Iq.webp', title: 'Treino 003 — Postura e alinhamento na corrida' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_51_50-kCgoVhMueZ7ePdoGjrlBMEiNaJ6RNy.webp', title: 'Treino 042 — Amplitude progressiva de passada' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2017_37_56-IIJ5kvTUAJRQSQAXJRnAGGixmbiDh9.webp', title: 'Treino 122 — Identificação da perna de impulsão' },
-  { image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2015%20de%20ago.%20de%202026%2C%2000_47_10-ZbaXbkfTpwcxvFzGABDwBVDuqhWRJ2.webp', title: 'Treino 021 — Desaceleração controlada' },
+  { image: '/images/categorias/sub-7.webp', title: 'Sub-7 — Iniciação ao goleiro' },
+  { image: '/images/categorias/sub-9.webp', title: 'Sub-9 — Fundamentos e coordenação' },
+  { image: '/images/categorias/sub-11.webp', title: 'Sub-11 — Quedas e defesas' },
+  { image: '/images/categorias/sub-13.webp', title: 'Sub-13 — Posicionamento e reação' },
+  { image: '/images/categorias/sub-15.webp', title: 'Sub-15 — Saídas e bolas aéreas' },
+  { image: '/images/categorias/sub-17.webp', title: 'Sub-17 — Situações de jogo' },
 ];
 
 export default function Page() {
@@ -46,10 +44,10 @@ export default function Page() {
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
       <BeforeAfterSection />
-      <ProductCarousel title="Conheça os Treinos por Dentro" subtitle="Páginas visuais com objetivo, duração, execução, diagrama e progressão." items={carrossel1} />
+      <ProductCarousel title="Conheça os Treinos por Dentro" subtitle="Páginas visuais com objetivo, categoria indicada, nível, duração, materiais, montagem, execução, progressões, correções e diagrama." items={carrossel1} />
       <HowItWorks />
       <WhatYouGet />
-      <ProductCarousel title="UM TREINO PARA DIFERENTES NÍVEIS" subtitle="Consulte durante a preparação e adapte cada sessão ao seu público." items={carrossel2} reverse={true} />
+      <ProductCarousel title="UM MATERIAL PARA DIFERENTES CATEGORIAS" subtitle="Consulte a indicação de cada treino e faça adaptações conforme idade, experiência e nível técnico dos goleiros." items={carrossel2} reverse={true} />
       <ForWhomSection />
       <Testimonials />
       <BonusSection />

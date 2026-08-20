@@ -7,28 +7,32 @@ export function FAQ() {
 
   const faqItems = [
     {
-      q: 'Para quem os 200 treinos são indicados?',
-      a: 'O material é indicado para treinadores, professores, instrutores e praticantes que desejam mais variedade e organização nos treinos de atletismo.',
+      q: 'Para quem os 80 treinos são indicados?',
+      a: 'O material foi desenvolvido principalmente para treinadores de goleiros, treinadores de categorias de base, professores de escolinhas e profissionais de Educação Física que trabalham com formação e treinamento de goleiros.',
     },
     {
-      q: 'Os treinos servem para diferentes níveis?',
-      a: 'Sim. O material apresenta adaptações para infantil, juvenil, adulto e avançado, permitindo ajustar volume e dificuldade conforme cada público.',
+      q: 'Para quais categorias os treinos são indicados?',
+      a: 'O material reúne exercícios indicados da iniciação às categorias de base, incluindo referências para Sub-7, Sub-9, Sub-11, Sub-13, Sub-15 e Sub-17. Cada página informa as categorias e o nível mais adequados para aquele treino.',
     },
     {
-      q: 'Preciso de uma pista oficial ou equipamentos específicos?',
-      a: 'Não. Muitos treinos podem ser realizados em campos, quadras, parques e outros espaços adequados. Cada página informa o espaço e os materiais necessários, e algumas modalidades podem exigir equipamentos específicos.',
+      q: 'Preciso de muitos equipamentos?',
+      a: 'Não. A maioria dos treinos utiliza materiais comuns no futebol, como bolas, cones e gol. Em cada página você encontra exatamente os materiais necessários.',
+    },
+    {
+      q: 'Os treinos mostram como organizar o exercício?',
+      a: 'Sim. Cada treino apresenta montagem, execução passo a passo, séries ou repetições, progressão, adaptação, correções e um diagrama visual para facilitar a aplicação.',
     },
     {
       q: 'Como recebo e acesso o material?',
-      a: 'O material é 100% digital. Após a confirmação do pagamento, você receberá o acesso pelo WhatsApp ou e-mail e poderá consultar pelo celular, tablet ou computador.',
+      a: 'Após a confirmação do pagamento, você recebe as instruções de acesso imediatamente pelo WhatsApp ou e-mail cadastrado na compra.',
     },
     {
       q: 'O pagamento é único?',
-      a: 'Sim. Você paga apenas R$ 19,90 uma única vez, sem mensalidade ou cobranças recorrentes.',
+      a: 'Sim. Você paga apenas uma vez e não existe mensalidade ou assinatura.',
     },
     {
       q: 'Como funciona a garantia de 7 dias?',
-      a: 'Você terá 7 dias para conhecer os treinos e os bônus. Se o conteúdo não atender às suas expectativas, poderá solicitar o reembolso dentro desse prazo.',
+      a: 'Você pode acessar e conhecer o material durante 7 dias. Caso não atenda às suas expectativas, poderá solicitar o reembolso dentro do prazo da garantia.',
     },
   ];
 
@@ -78,7 +82,7 @@ export function FAQ() {
                   <span
                     className="transition-transform duration-200"
                     style={{
-                      color: '#F0642D',
+                      color: '#003F2D',
                       fontSize: '20px',
                       fontWeight: 700,
                       flexShrink: 0,

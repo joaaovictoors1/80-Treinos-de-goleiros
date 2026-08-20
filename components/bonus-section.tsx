@@ -1,37 +1,37 @@
 export function BonusSection() {
   const bonuses = [
     {
-      title: '30 Dinâmicas e Desafios de Atletismo',
-      price: 'R$ 37,00',
+      title: '20 Aquecimentos Específicos para Goleiros',
+      price: 'R$ 27,00',
       num: '1',
-      image: '/images/bonus-dinamicas-atletismo-novo.webp',
-      description: 'Atividades interativas para variar os treinos, estimular a participação e desenvolver velocidade, resistência, coordenação, técnica e trabalho em equipe.',
+      image: '/images/bonus-aquecimentos-goleiros.png',
+      description: 'Aquecimentos práticos para trabalhar ativação, mobilidade, coordenação, deslocamentos, reação e contato com bola antes da parte principal do treinamento.',
     },
     {
-      title: '30 Planos de Treino Prontos para Aplicar',
+      title: '20 Treinos para Fazer com Apenas 1 Goleiro',
       price: 'R$ 29,00',
       num: '2',
-      image: '/images/bonus-planos-treino-novo.webp',
-      description: 'Sessões organizadas por objetivo, duração e nível para ajudar a combinar os treinos do material e aplicá-los com mais facilidade.',
+      image: '/images/bonus-treinos-1-goleiro.webp',
+      description: 'Exercícios pensados para aqueles dias em que você precisa conduzir o treinamento com somente um goleiro disponível.',
     },
     {
-      title: 'Kit de Avaliação e Evolução do Atleta',
-      price: 'R$ 34,90',
+      title: 'Planner de Treinos para Goleiros',
+      price: 'R$ 19,90',
       num: '3',
-      image: '/images/bonus-kit-avaliacao-novo.webp',
-      description: 'Fichas práticas para registrar tempos, distâncias, desempenho técnico, metas e evolução em diferentes modalidades do atletismo.',
+      image: '/images/bonus-planner-goleiros.webp',
+      description: 'Ficha prática para organizar objetivos, exercícios, duração e distribuição dos treinamentos durante a semana.',
     },
   ];
 
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32 text-white" style={{ backgroundColor: '#E85A2A' }}>
+    <section className="w-full py-16 md:py-24 lg:py-32 text-white" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
       <div className="flex flex-col items-center text-center space-y-4 md:space-y-6 mb-12 md:mb-16">
         <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty">
-          RECEBA 3 BÔNUS PARA COMPLETAR O SEU MATERIAL
+          RECEBA 3 BÔNUS PARA COMPLETAR SEUS TREINOS
         </h2>
-        <p className="text-base sm:text-lg max-w-2xl" style={{ color: '#FFF4EC' }}>
-          Materiais complementares para organizar sessões e aplicar os treinos com mais clareza.
+        <p className="text-base sm:text-lg max-w-2xl" style={{ color: '#D7ECDF' }}>
+          Materiais complementares para variar as sessões e facilitar ainda mais o planejamento.
         </p>
       </div>
 
