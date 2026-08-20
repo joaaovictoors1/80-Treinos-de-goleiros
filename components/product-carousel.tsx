@@ -41,7 +41,7 @@ function CarouselCard({ title, image }: { title: string; image: string }) {
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-contain"
           decoding="async"
         />
       </div>
