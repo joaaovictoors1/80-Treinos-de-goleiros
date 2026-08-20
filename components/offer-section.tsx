@@ -56,7 +56,7 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
             {/* Mockup */}
             <div className="mb-10 sm:mb-12 flex justify-center">
               <img
-                src="/images/offer-mockup-goleiros.png"
+                src="/images/offer-mockup-goleiros.webp"
                 alt="Mockup da coleção 80 Treinos Prontos para Goleiros com bônus e selo de garantia de 7 dias"
                 className="w-full max-w-xs sm:max-w-sm h-auto object-contain"
                 style={{ filter: 'drop-shadow(0 12px 30px rgba(23, 25, 28, 0.14))' }}

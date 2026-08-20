@@ -23,7 +23,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
           <div className="w-full flex justify-center py-2 sm:py-4 md:py-6 overflow-visible">
             <div className="w-full max-w-2xl flex justify-center items-center">
               <img
-                src="/images/hero-mockup-goleiros.png"
+                src="/images/hero-mockup-goleiros.webp"
                 alt="Coleção completa: 80 Treinos Prontos para Goleiros e os 3 bônus — 20 Aquecimentos Específicos, 20 Treinos para 1 Goleiro e Planner de Treinos para Goleiros"
                 className="w-full h-auto max-w-md sm:max-w-lg md:max-w-2xl"
               />

@@ -40,7 +40,7 @@ export default function Page() {
   const offerRef = useRef<HTMLDivElement>(null);
   const handleCtaClick = () => offerRef.current?.scrollIntoView({ behavior: 'smooth' });
   return (
-    <main className="min-h-screen bg-background pt-14 sm:pt-16 md:pt-20">
+    <main className="min-h-screen pt-14 sm:pt-16 md:pt-20" style={{ backgroundColor: '#003F2D' }}>
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
       <BeforeAfterSection />
