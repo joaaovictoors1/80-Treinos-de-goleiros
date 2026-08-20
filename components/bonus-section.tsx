@@ -12,10 +12,10 @@ export function BonusSection() {
       price: 'R$ 29,00',
       num: '2',
       image: '/images/bonus-treinos-1-goleiro.png',
-      description: 'Exercícios pensados para aqueles dias em que você precisa conduzir o treinamento com somente um goleiro disponível.',
+      description: 'Treinos práticos pensados para situações em que há somente um goleiro disponível, com exercícios de reflexo, técnica, posicionamento, deslocamento, defesas e jogo com os pés',
     },
     {
-      title: 'Planner de Treinos para Goleiros',
+      title: 'Calendário de Treinos para Goleiros',
       price: 'R$ 19,90',
       num: '3',
       image: '/images/bonus-planner-goleiros.png',
