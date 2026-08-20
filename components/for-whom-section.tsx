@@ -1,8 +1,8 @@
 export function ForWhomSection() {
   const profiles = [
-    ['1', 'TREINADORES DE GOLEIROS', 'Planeje sessões específicas sem precisar começar cada treinamento do zero.'],
+    ['1', 'TREINADORES DE GOLEIROS', 'Planeje sessões de treinos específicas sem precisar começar cada treinamento do zero.'],
     ['2', 'TREINADORES DE CATEGORIAS DE BASE', 'Encontre exercícios para inserir no trabalho dos goleiros da equipe.'],
-    ['3', 'PROFESSORES DE ESCOLINHAS', 'Tenha atividades organizadas para trabalhar goleiros em diferentes etapas da iniciação.'],
+    ['3', 'PROFESSORES DE ESCOLINHAS', 'Tenha atividades organizadas para trabalhar goleiros em diferentes etapas do treino.'],
     ['4', 'PROFISSIONAIS DE EDUCAÇÃO FÍSICA', 'Utilize uma biblioteca prática para estruturar sessões específicas de treinamento.'],
     ['5', 'ACADEMIAS E PROJETOS DE FUTEBOL', 'Amplie as opções de treinamento para goleiros de diferentes categorias.'],
   ];
