@@ -11,13 +11,13 @@ export function WhatYouGet() {
   ];
 
   return (
-    <section className="w-full bg-[#EDECE6] py-16 md:py-24">
+    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-12">
-          <h2 className="font-grotesk text-3xl leading-tight text-pretty text-[#101313] sm:text-4xl md:text-5xl">
-            <span className="text-[#003F2D]">80 Treinos</span> ORGANIZADOS POR OBJETIVO
+          <h2 className="font-grotesk text-3xl leading-tight text-pretty text-[#FFFFFF] sm:text-4xl md:text-5xl">
+            <span className="text-[#7BE0A3]">80 Treinos</span> ORGANIZADOS POR OBJETIVO
           </h2>
-          <p className="max-w-2xl text-sm leading-relaxed text-[#5D625F] sm:text-base md:text-lg">
+          <p className="max-w-2xl text-sm leading-relaxed text-[#D5DDD8] sm:text-base md:text-lg">
             Uma biblioteca prática para trabalhar os principais fundamentos e situações enfrentadas pelo goleiro.
           </p>
         </div>

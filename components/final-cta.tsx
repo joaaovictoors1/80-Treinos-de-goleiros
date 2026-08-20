@@ -8,13 +8,13 @@ export function FinalCta() {
   };
 
   return (
-      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#F7F5F0' }}>
+      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#003F2D' }}>
         <div className="mobile-content flex flex-col items-center gap-4">
           <div className="text-center space-y-3 mb-4 w-full">
-            <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#101313', boxSizing: 'border-box' }}>
+            <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#FFFFFF', boxSizing: 'border-box' }}>
               DÊ O PRÓXIMO PASSO E TENHA 80 TREINOS DE GOLEIROS SEMPRE À MÃO
             </h2>
-            <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: '#5D625F' }}>
+            <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: '#D5DDD8' }}>
               Escolha o objetivo, abra o treino e leve uma sessão organizada para o campo.
             </p>
           </div>

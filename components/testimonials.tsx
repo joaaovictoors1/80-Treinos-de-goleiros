@@ -41,7 +41,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#FFFFFF' }}>
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#F6F4EF' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-4 mb-12 md:mb-16">
           <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#101313' }}>
@@ -57,7 +57,7 @@ export function Testimonials() {
             <div
               key={item.name}
               className="flex flex-col gap-5 p-8 md:p-9"
-              style={{ backgroundColor: '#F6F4EF', border: '1px solid #D9DDD9', borderRadius: '20px' }}
+              style={{ backgroundColor: '#FFFFFF', border: '1px solid #D9DDD9', borderRadius: '20px' }}
             >
               <StarRow />
 

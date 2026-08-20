@@ -6,13 +6,13 @@ export function HowItWorks() {
     ['4', 'Aplique e adapte', 'Use o diagrama visual e ajuste o exercício de acordo com o nível dos seus goleiros.'],
   ];
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32 bg-background">
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-12 md:mb-16">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty text-foreground">
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#FFFFFF' }}>
             Organizar um Treino de Goleiros Pode Ser Simples
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5D625F' }}>
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#D5DDD8' }}>
             Em quatro etapas, você escolhe o objetivo, encontra o treino adequado e leva a sessão pronta para o campo.
           </p>
         </div>

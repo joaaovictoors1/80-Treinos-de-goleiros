@@ -7,10 +7,10 @@ export function ForWhomSection() {
     ['5', 'ACADEMIAS E PROJETOS DE FUTEBOL', 'Amplie as opções de treinamento para goleiros de diferentes categorias.'],
   ];
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#E7F4EC' }}>
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-12 md:mb-16">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#101313' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#FFFFFF' }}>
             Para Quem os Treinos Podem Ajudar?
           </h2>
         </div>

@@ -1,6 +1,6 @@
 export function Guarantee() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32 bg-background">
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
         <div
           className="max-w-2xl mx-auto bg-card p-6 sm:p-8 md:p-12 lg:p-16 border border-border relative"
