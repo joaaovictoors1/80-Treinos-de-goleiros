@@ -13,7 +13,7 @@ export function HowItWorks() {
             Organizar um Treino de Goleiros Pode Ser Simples
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#D5DDD8' }}>
-            Em quatro etapas, você escolhe o objetivo, encontra o treino adequado e leva a sessão pronta para o campo.
+            Em quatro etapas, você escolhe o objetivo, encontra o treino adequado e leva tudo pronto para o campo.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 items-stretch">
