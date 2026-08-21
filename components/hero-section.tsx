@@ -55,7 +55,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
             >
               QUERO ACESSAR OS 80 TREINOS
             </button>
-            <p className="text-xs sm:text-sm text-center" style={{ color: '#D5DDD8' }}>Acesso imediato no seu WhatsApp ou e-mail após a confirmação do pagamento.</p>
+            <p className="text-xs sm:text-sm text-center" style={{ color: '#D5DDD8' }}>Acesso imediato no seu WhatsApp ou e-mail ap</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-6 pt-2">
             {['Pagamento único', 'Consulte quando precisar', '7 dias de garantia', 'Acesso imediato'].map((label) => <div key={label} className="flex items-center gap-1.5 text-xs sm:text-sm font-medium" style={{ color: '#FFFFFF' }}><span className="rounded-full flex items-center justify-center text-white text-[10px] font-bold" style={{ backgroundColor: '#22C55E', width: '18px', height: '18px' }}>✓</span>{label}</div>)}
