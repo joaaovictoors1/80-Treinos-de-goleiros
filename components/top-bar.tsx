@@ -18,13 +18,13 @@ export function TopBar() {
 
   return (
     <div
-      className="fixed top-0 left-0 right-0 z-50 animate-in fade-in duration-500"
-      style={{ backgroundColor: '#F0642D' }}
+      className="relative w-full animate-in fade-in duration-500"
+      style={{ backgroundColor: '#7BE0A3' }}
     >
       <div className="py-2.5 sm:py-3">
         <div
-          className="w-full max-w-6xl mx-auto text-center text-xs sm:text-sm md:text-base font-semibold text-white tracking-wide"
-          style={{ paddingInline: '12px', boxSizing: 'border-box' }}
+          className="w-full max-w-6xl mx-auto text-center text-xs sm:text-sm md:text-base font-semibold tracking-wide"
+          style={{ paddingInline: '12px', boxSizing: 'border-box', color: '#FFFFFF' }}
         >
           🎁 OFERTA ESPECIAL SOMENTE HOJE{formattedDate ? ` • ${formattedDate}` : ''}
         </div>

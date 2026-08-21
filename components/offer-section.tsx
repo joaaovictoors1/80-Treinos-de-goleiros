@@ -8,17 +8,18 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
   };
 
   const features = [
-    { bold: '+200', text: 'Treinos de Atletismo', type: 'main' },
-    { bold: '+25', text: 'Treinos de Preparação, Mobilidade e Técnica', type: 'main' },
-    { bold: '+25', text: 'Treinos de Velocidade e Aceleração', type: 'main' },
-    { bold: '+20', text: 'Treinos de Resistência, Meio-Fundo e Fundo', type: 'main' },
-    { bold: '+30', text: 'Treinos de Barreiras e Revezamentos', type: 'main' },
-    { bold: '+45', text: 'Treinos de Saltos', type: 'main' },
-    { bold: '+40', text: 'Treinos de Arremessos e Lançamentos', type: 'main' },
-    { bold: '+15', text: 'Circuitos e Treinos Combinados', type: 'main' },
-    { text: 'Bônus #1 — +30 Dinâmicas e Desafios de Atletismo', type: 'bonus' },
-    { text: 'Bônus #2 — +30 Planos de Treino Prontos para Aplicar', type: 'bonus' },
-    { text: 'Bônus #3 — Kit de Avaliação e Evolução do Atleta', type: 'bonus' },
+    { bold: '+80', text: 'Treinos Prontos para Goleiros', type: 'main' },
+    { bold: '+10', text: 'Fundamentos e Domínio Corporal', type: 'main' },
+    { bold: '+10', text: 'Reflexo e Reação', type: 'main' },
+    { bold: '+10', text: 'Quedas e Defesas', type: 'main' },
+    { bold: '+10', text: 'Posicionamento', type: 'main' },
+    { bold: '+10', text: 'Saídas do Gol e Bolas Aéreas', type: 'main' },
+    { bold: '+10', text: 'Situações de 1x1', type: 'main' },
+    { bold: '+10', text: 'Jogo com os Pés e Reposição', type: 'main' },
+    { bold: '+10', text: 'Treinos Combinados e Situações de Jogo', type: 'main' },
+    { text: 'Bônus #1 — 20 Aquecimentos Específicos para Goleiros', type: 'bonus' },
+    { text: 'Bônus #2 — 20 Treinos para Fazer com Apenas 1 Goleiro', type: 'bonus' },
+    { text: 'Bônus #3 — Calendário de Treinos para Goleiros', type: 'bonus' },
   ];
 
   return (
@@ -38,25 +39,25 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
           {/* Faixa superior de urgência */}
           <div
             className="w-full py-3 px-4 text-center text-sm font-bold tracking-wide"
-            style={{ backgroundColor: '#F0642D', color: '#FFFFFF' }}
+            style={{ backgroundColor: '#003F2D', color: '#FFFFFF' }}
           >
             &#9201; ÚLTIMA CHANCE — CONDIÇÃO ESPECIAL TERMINA HOJE
           </div>
 
           <div className="p-6 sm:p-8 md:p-12 lg:p-16">
             {/* Título */}
-            <h3 className="font-grotesk text-2xl sm:text-3xl leading-tight text-center mb-1" style={{ color: '#17191C' }}>
-              200 Treinos de Atletismo
+            <h3 className="font-grotesk text-2xl sm:text-3xl leading-tight text-center mb-1" style={{ color: '#101313' }}>
+              80 Treinos Prontos para Goleiros
             </h3>
-            <p className="text-center text-sm sm:text-base font-medium mb-8" style={{ color: '#F0642D' }}>
+            <p className="text-center text-sm sm:text-base font-medium mb-8" style={{ color: '#003F2D' }}>
       
             </p>
 
             {/* Mockup */}
             <div className="mb-10 sm:mb-12 flex justify-center">
               <img
-                src="/images/offer-mockup-garantia.webp"
-                alt="Mockup da biblioteca 200 Treinos de Atletismo com bônus e selo de garantia de 7 dias"
+                src="/images/offer-mockup-goleiros.webp"
+                alt="Mockup da coleção 80 Treinos Prontos para Goleiros com bônus e selo de garantia de 7 dias"
                 className="w-full max-w-xs sm:max-w-sm h-auto object-contain"
                 style={{ filter: 'drop-shadow(0 12px 30px rgba(23, 25, 28, 0.14))' }}
                 loading="lazy"
@@ -68,7 +69,7 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
               <div className="w-full flex flex-col md:pr-10 md:border-r" style={{ borderColor: '#DED9D1' }}>
                 <ul className="space-y-3 sm:space-y-3">
                   {features.map((feature, idx) => (
-                    <li key={idx} className={`flex items-start gap-2.5 sm:gap-2.5 ${idx === 8 ? 'mt-3 sm:mt-4' : ''}`}>
+                    <li key={idx} className={`flex items-start gap-2.5 sm:gap-2.5 ${idx === 9 ? 'mt-3 sm:mt-4' : ''}`}>
                       {feature.type === 'main' ? (
                         <>
                           <span
@@ -85,7 +86,7 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
                         <>
                           <span
                             className="flex-shrink-0 rounded-full flex items-center justify-center mt-0.5"
-                            style={{ backgroundColor: '#FFF0E8', color: '#F0642D', width: '22px', height: '22px', fontSize: '12px' }}
+                            style={{ backgroundColor: '#E7F4EC', color: '#003F2D', width: '22px', height: '22px', fontSize: '12px' }}
                           >
                             &#127873;
                           </span>
@@ -104,9 +105,9 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
                 <div className="w-full space-y-6 sm:space-y-8">
                   <div className="space-y-3 text-center">
                     <p className="line-through text-base sm:text-lg" style={{ color: '#777B80' }}>
-                      Valor total: R$ 120,80
+                      Valor total: R$ 94,80
                     </p>
-                    <p className="text-sm font-bold" style={{ color: '#B8422E' }}>HOJE POR APENAS</p>
+                    <p className="text-sm font-bold" style={{ color: '#002D21' }}>HOJE POR APENAS</p>
                   </div>
 
                   <div className="text-center">
@@ -143,7 +144,7 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
                       e.currentTarget.style.transform = 'translateY(0) scale(1)';
                     }}
                   >
-                    QUERO ACESSAR OS 200 TREINOS
+                    QUERO ACESSAR OS 80 TREINOS
                   </button>
 
                   <p className="text-xs sm:text-sm text-center" style={{ color: '#4E5358' }}>
@@ -171,7 +172,7 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
           pointer-events: none;
         }
         .offer-card:hover {
-          border-color: #F0642D !important;
+          border-color: #003F2D !important;
           box-shadow: 0 22px 52px rgba(23, 25, 28, 0.15) !important;
         }
       `}</style>

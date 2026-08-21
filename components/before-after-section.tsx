@@ -1,40 +1,40 @@
-'use client';
+ero colocar ela 'use client';
 
 import { Check, X } from 'lucide-react';
 
 const beforeItems = [
-  'Não sabe qual treino aplicar primeiro',
-  'Procura exercícios separados sem uma sequência',
-  'Perde tempo montando cada sessão',
-  'Fica inseguro sobre volume e progressão',
-  'Não sabe como adaptar o treino para cada nível',
+  'Procura exercícios de goleiro em vários lugares',
+  'Acaba repetindo sempre os mesmos treinos',
+  'Perde tempo tentando organizar cada sessão',
+  'Não sabe como adaptar o exercício para diferentes níveis',
+  'Fica em dúvida sobre montagem, progressão e correções',
 ];
 
 const afterItems = [
   'Escolhe o treino de acordo com o objetivo',
-  'Encontra a sessão completa em uma única página',
-  'Consulta a execução e o diagrama rapidamente',
-  'Segue uma prescrição adequada para cada público',
-  'Adapta para infantil, juvenil, adulto ou avançado',
+  'Encontra toda a sessão organizada em uma página',
+  'Consulta rapidamente montagem e execução',
+  'Visualiza o exercício pelo diagrama',
+  'Utiliza progressões e adaptações para diferentes categorias',
 ];
 
 export function BeforeAfterSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-28" style={{ backgroundColor: '#F7F5F0' }}>
+    <section className="w-full py-12 md:py-24 lg:py-28" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
         <div className="mb-8 flex flex-col items-center gap-4 text-center md:mb-16 md:gap-5">
           <h2
             className="max-w-4xl font-grotesk text-3xl leading-[1.1] text-balance md:text-5xl md:leading-tight md:text-pretty"
-            style={{ color: '#17191C' }}
+            style={{ color: '#FFFFFF' }}
           >
-            De “O Que Eu Aplico Hoje?” para um{' '}
-            <span style={{ color: '#F0642D' }}>Treino Completo e Organizado</span>
+            De “Qual Treino Eu Faço Hoje?” para um{' '}
+            <span style={{ color: '#7BE0A3' }}>Treino de Goleiros Pronto para Aplicar</span>
           </h2>
           <p
             className="max-w-2xl text-center text-base leading-[1.55] md:text-lg md:leading-relaxed"
-            style={{ color: '#4E5358' }}
+            style={{ color: '#D5DDD8' }}
           >
-            Pare de montar treinos no improviso. Escolha o treino, consulte a sessão completa e aplique com execução, volume e progressão claramente definidos.
+            Pare de perder tempo procurando exercícios separados. Escolha o objetivo, abra o treino e consulte toda a organização em uma única página.
           </p>
         </div>
 

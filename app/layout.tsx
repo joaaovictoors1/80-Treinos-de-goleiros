@@ -15,25 +15,25 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
-  title: '200 Treinos de Atletismo | Biblioteca Visual de Treinos',
+  title: '80 Treinos Prontos para Goleiros | Da Iniciação às Categorias de Base',
   description:
-    '200 treinos prontos de atletismo para consultar e aplicar, do iniciante ao avançado, com adaptações por público e nível. Acesso imediato.',
+    '80 treinos prontos para goleiros para consultar e aplicar, da iniciação às categorias de base, com adaptações por categoria e nível. Acesso imediato.',
   generator: 'v0.app',
 
   openGraph: {
-    title: '200 Treinos de Atletismo | Biblioteca Visual de Treinos',
+    title: '80 Treinos Prontos para Goleiros | Da Iniciação às Categorias de Base',
     description:
-      '200 treinos prontos de atletismo para consultar e aplicar. Acesso imediato e garantia de 7 dias.',
+      '80 treinos prontos para goleiros para consultar e aplicar. Acesso imediato e garantia de 7 dias.',
     type: 'website',
     locale: 'pt_BR',
-    siteName: '200 Treinos de Atletismo',
+    siteName: '80 Treinos Prontos para Goleiros',
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: '200 Treinos de Atletismo',
+    title: '80 Treinos Prontos para Goleiros',
     description:
-      '200 treinos prontos de atletismo para consultar e aplicar. Acesso imediato e garantia de 7 dias.',
+      '80 treinos prontos para goleiros para consultar e aplicar. Acesso imediato e garantia de 7 dias.',
   },
 
   icons: {

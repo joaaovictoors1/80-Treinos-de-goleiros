@@ -13,31 +13,31 @@ interface ProductCarouselProps {
 }
 
 const iconMap: Record<string, string> = {
-  'Velocidade e aceleração': '&#9654;',
-  'Resistência e ritmo': '&#9679;',
-  'Corrida com barreiras': '&#9632;',
-  'Revezamentos': '&#8644;',
-  'Saltos e impulsão': '&#9650;',
-  'Arremessos e lançamentos': '&#9670;',
-  'Técnica de corrida': '&#10132;',
-  'Coordenação e agilidade': '&#10022;',
+  'Reflexo e reação': '&#9889;',
+  'Quedas e defesas': '&#9679;',
+  'Posicionamento': '&#9678;',
+  'Saídas e bolas aéreas': '&#9650;',
+  'Situações de 1x1': '&#9670;',
+  'Jogo com os pés': '&#10132;',
+  'Fundamentos': '&#9632;',
+  'Treinos combinados': '&#10022;',
 };
 
 const subtitleMap: Record<string, string> = {
-  'Velocidade e aceleração': 'Objetivo, execução e progressão',
-  'Resistência e ritmo': 'Duração, intensidade e adaptação',
-  'Corrida com barreiras': 'Ritmo, técnica e correções',
-  'Revezamentos': 'Trocas, comandos e organização',
-  'Saltos e impulsão': 'Aproximação, impulsão e aterrissagem',
-  'Arremessos e lançamentos': 'Segurança, técnica e evolução',
-  'Técnica de corrida': 'Comandos e erros comuns',
-  'Coordenação e agilidade': 'Reação, deslocamento e controle',
+  'Reflexo e reação': 'Estímulo, reação e segunda defesa',
+  'Quedas e defesas': 'Queda, encaixe e recuperação',
+  'Posicionamento': 'Ângulo, cobertura e leitura',
+  'Saídas e bolas aéreas': 'Saída, cruzamento e dividida',
+  'Situações de 1x1': 'Espaço, tempo e decisão',
+  'Jogo com os pés': 'Passe, domínio e reposição',
+  'Fundamentos': 'Postura, deslocamento e encaixe',
+  'Treinos combinados': 'Sequências e situações de jogo',
 };
 
 function CarouselCard({ title, image }: { title: string; image: string }) {
   if (image) {
     return (
-      <div className="relative w-full h-full rounded-2xl overflow-hidden">
+      <div className="relative w-full h-full rounded-2xl overflow-hidden" style={{ backgroundColor: '#FFFFFF' }}>
         <img
           src={image}
           alt={title}
@@ -58,10 +58,10 @@ function CarouselCard({ title, image }: { title: string; image: string }) {
       {/* Hexagon accent */}
       <div
         className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl"
-        style={{ backgroundColor: '#B8422E' }}
+        style={{ backgroundColor: '#003F2D' }}
         dangerouslySetInnerHTML={{ __html: iconMap[title] ?? '&#9881;' }}
       />
-      <p className="text-center font-grotesk text-sm sm:text-base leading-snug" style={{ color: '#17191C' }}>
+      <p className="text-center font-grotesk text-sm sm:text-base leading-snug" style={{ color: '#101313' }}>
         {title}
       </p>
       {sub && (
@@ -72,7 +72,7 @@ function CarouselCard({ title, image }: { title: string; image: string }) {
       {/* Bottom accent line */}
       <div
         className="absolute bottom-0 left-0 right-0 h-0.5 rounded-b-2xl"
-        style={{ backgroundColor: '#B8422E' }}
+        style={{ backgroundColor: '#003F2D' }}
       />
     </div>
   );

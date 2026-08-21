@@ -1,16 +1,16 @@
 export function ForWhomSection() {
   const profiles = [
-    ['1', 'TREINADORES', 'Planeje sessões completas sem precisar começar do zero.'],
-    ['2', 'PROFESSORES E INSTRUTORES', 'Encontre treinos prontos para diferentes objetivos e níveis.'],
-    ['3', 'QUEM ESTÁ COMEÇANDO', 'Comece com sessões claras, progressivas e fáceis de acompanhar.'],
-    ['4', 'QUEM JÁ TREINA', 'Varie os estímulos e encontre novos desafios para continuar evoluindo..'],
-    ['5', 'DIFERENTES IDADES E NÍVEIS', 'Adapte cada treino de acordo com a idade, o nível e o objetivo.'],
+    ['1', 'TREINADORES DE GOLEIROS', 'Planeje sessões de treinos específicas sem precisar começar cada treinamento do zero.'],
+    ['2', 'TREINADORES DE CATEGORIAS DE BASE', 'Encontre exercícios para inserir no trabalho dos goleiros da equipe.'],
+    ['3', 'PROFESSORES DE ESCOLINHAS', 'Tenha atividades organizadas para trabalhar goleiros em diferentes etapas do treino.'],
+    ['4', 'PROFISSIONAIS DE EDUCAÇÃO FÍSICA', 'Utilize uma biblioteca prática para estruturar sessões específicas de treinamento.'],
+    ['5', 'ACADEMIAS E PROJETOS DE FUTEBOL', 'Amplie as opções de treinamento para goleiros de diferentes categorias.'],
   ];
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#EEEAE3' }}>
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#003F2D' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-12 md:mb-16">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#17191C' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#FFFFFF' }}>
             Para Quem os Treinos Podem Ajudar?
           </h2>
         </div>
@@ -32,25 +32,25 @@ export function ForWhomSection() {
               <span
                 aria-hidden="true"
                 className="absolute top-0 left-0 w-full"
-                style={{ height: '4px', backgroundColor: '#F0642D' }}
+                style={{ height: '4px', backgroundColor: '#003F2D' }}
               />
               <div
                 className="rounded-full flex items-center justify-center text-xl font-bold font-grotesk"
                 style={{
                   width: '52px',
                   height: '52px',
-                  background: 'linear-gradient(135deg, #F0642D 0%, #B8422E 100%)',
+                  background: 'linear-gradient(135deg, #003F2D 0%, #002D21 100%)',
                   color: '#FFFFFF',
-                  boxShadow: '0 6px 14px rgba(184, 66, 46, 0.20)',
+                  boxShadow: '0 6px 14px rgba(0, 45, 33, 0.25)',
                   marginBottom: '20px',
                 }}
               >
                 {number}
               </div>
-              <h3 className="font-grotesk text-base sm:text-lg uppercase" style={{ color: '#17191C', marginBottom: '11px' }}>
+              <h3 className="font-grotesk text-base sm:text-lg uppercase" style={{ color: '#101313', marginBottom: '11px' }}>
                 {title}
               </h3>
-              <p className="text-sm leading-relaxed" style={{ color: '#5E6267' }}>
+              <p className="text-sm leading-relaxed" style={{ color: '#5D625F' }}>
                 {description}
               </p>
             </div>
@@ -63,7 +63,7 @@ export function ForWhomSection() {
         }
         .for-whom-card:hover {
           transform: translateY(-4px);
-          border-color: #F0642D;
+          border-color: #003F2D;
           box-shadow: 0 18px 38px rgba(23, 25, 28, 0.12);
         }
         @media (min-width: 640px) {
