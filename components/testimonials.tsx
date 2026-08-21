@@ -4,7 +4,7 @@ function StarRow() {
   return (
     <div className="flex items-center gap-1" aria-label="Avaliação de 5 estrelas">
       {Array.from({ length: 5 }).map((_, i) => (
-        <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill="#003F2D" aria-hidden="true">
+        <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill="#FFB800" aria-hidden="true">
           <path d="M12 2.5l2.9 6.3 6.9.6-5.2 4.6 1.6 6.8-6.2-3.7-6.2 3.7 1.6-6.8-5.2-4.6 6.9-.6z" />
         </svg>
       ))}
@@ -48,7 +48,7 @@ export function Testimonials() {
             APROVADO POR QUEM TRABALHA COM FUTEBOL
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5D625F' }}>
-            Veja a opinião de quem utiliza os treinos para organizar sessões e variar o trabalho com goleiros.
+            Confira a experiência de quem já utiliza os treinos na preparação e no desenvolvimento de goleiros.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-'use client';
+ero colocar ela 'use client';
 
 import { Check, X } from 'lucide-react';
 

@@ -44,10 +44,10 @@ export default function Page() {
     <main className="min-h-screen pt-14 sm:pt-16 md:pt-20" style={{ backgroundColor: '#003F2D' }}>
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
-      <ProductCarousel title="Conheça os Treinos por Dentro" subtitle="Páginas visuais com objetivo, categoria indicada, nível, duração, materiais, montagem, execução, progressões, correções e diagrama." items={carrossel1} />
+      <ProductCarousel title="Conheça os Treinos por Dentro" subtitle="Veja como cada treino é organizado para você entender rapidamente a montagem, a execução e o que trabalhar com seus goleiros." items={carrossel1} />
       <HowItWorks />
       <WhatYouGet />
-      <ProductCarousel title="UM MATERIAL PARA DIFERENTES CATEGORIAS" subtitle="Consulte a indicação de cada treino e faça adaptações conforme idade, experiência e nível técnico dos goleiros." items={carrossel2} reverse={true} />
+      <ProductCarousel title="TREINOS ADAPTÁVEIS PARA DIFERENTES CATEGORIAS" subtitle="Encontre rapidamente os treinos indicados para cada categoria e utilize as adaptações conforme a idade e o nível técnico dos seus goleiros." items={carrossel2} reverse={true} />
       <ForWhomSection />
       <Testimonials />
       <BonusSection />
