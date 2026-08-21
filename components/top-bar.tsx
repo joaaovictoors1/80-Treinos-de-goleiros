@@ -18,8 +18,8 @@ export function TopBar() {
 
   return (
     <div
-      className="fixed top-0 left-0 right-0 z-50 animate-in fade-in duration-500"
-      style={{ backgroundColor: '#E11D2A' }}
+      className="relative w-full animate-in fade-in duration-500"
+      style={{ backgroundColor: '#7BE0A3' }}
     >
       <div className="py-2.5 sm:py-3">
         <div

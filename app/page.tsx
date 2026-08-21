@@ -41,7 +41,7 @@ export default function Page() {
   const offerRef = useRef<HTMLDivElement>(null);
   const handleCtaClick = () => offerRef.current?.scrollIntoView({ behavior: 'smooth' });
   return (
-    <main className="min-h-screen pt-14 sm:pt-16 md:pt-20" style={{ backgroundColor: '#003F2D' }}>
+    <main className="min-h-screen" style={{ backgroundColor: '#003F2D' }}>
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
       <ProductCarousel title="Conheça os Treinos por Dentro" subtitle="Veja como cada treino é organizado para você entender rapidamente a montagem, a execução e o que trabalhar com seus goleiros." items={carrossel1} />
