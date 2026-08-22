@@ -16,7 +16,7 @@ export function Testimonials() {
   const testimonials = [
     {
       quote:
-        'Gostei principalmente da organização. Eu consigo escolher o fundamento que quero trabalhar e já tenho montagem, execução e correções na mesma página. O diagrama também ajuda muito na hora de preparar o treino.',
+        'Eu sempre buscava novas formas de variar os treinos sem fugir dos fundamentos importantes. O material me ajudou justamente nisso, porque tem muitas opções prontas e fica fácil escolher um treino de acordo com o que quero trabalhar com os goleiros naquele dia.  ',
       name: 'Lucas Ferreira',
       role: 'Treinador de Goleiros — Goiânia/GO',
       photo: '/images/testimonials/lucas-ferreira.png',
@@ -24,7 +24,7 @@ export function Testimonials() {
     },
     {
       quote:
-        'O material é muito fácil de consultar. Tem exercícios para fundamentos diferentes e consigo utilizar as progressões e adaptações dependendo da categoria que estou trabalhando.',
+        'O que mais me ajudou foi ter várias opções de treino em um só lugar. Antes eu acabava repetindo alguns exercícios ou procurando ideias em vários lugares. Agora ficou muito mais fácil variar o trabalho com os goleiros.',
       name: 'Rafael Martins',
       role: 'Treinador de Categoria de Base — Brasília/DF',
       photo: '/images/testimonials/rafael-martins.png',
@@ -33,8 +33,8 @@ export function Testimonials() {
     {
       quote:
         'Eu estava procurando justamente novas opções para não ficar repetindo sempre os mesmos exercícios. Agora consigo abrir pelo celular e escolher rapidamente o que quero trabalhar naquele dia.',
-      name: 'Camila Rocha',
-      role: 'Professora de Educação Física — São Paulo/SP',
+      name: 'Bruno Carvalho',
+      role: 'Professor de Escolinha de Futebol — São Paulo/SP',
       photo: '/images/testimonials/camila-rocha.png',
       objectPosition: '50% 30%',
     },
