@@ -1,7 +1,7 @@
 'use client';
 
 export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
-  const checkoutUrl = 'https://pay.wiapy.com/qKB59Gp-c5Yx';
+  const checkoutUrl = 'https://pay.wiapy.com/NkaIUpkR3OKB';
 
   const handleCheckout = () => {
     window.location.href = checkoutUrl;
@@ -105,7 +105,7 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
                 <div className="w-full space-y-6 sm:space-y-8">
                   <div className="space-y-3 text-center">
                     <p className="line-through text-base sm:text-lg" style={{ color: '#777B80' }}>
-                      Valor total: R$ 94,80
+                      Valor total: R$ 95,80
                     </p>
                     <p className="text-sm font-bold" style={{ color: '#002D21' }}>HOJE POR APENAS</p>
                   </div>

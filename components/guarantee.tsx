@@ -9,7 +9,7 @@ export function Guarantee() {
           {/* Selo */}
           <div className="absolute -top-12 sm:-top-16 left-1/2 transform -translate-x-1/2 w-28 h-28 sm:w-40 sm:h-40 flex items-center justify-center">
             <img
-              src="/images/garantia-7-dias-goleiros.png"
+              src="/images/garantia-7-dias-selo.webp"
               alt="Garantia de 7 Dias"
               className="w-full h-full object-contain drop-shadow-lg"
               loading="lazy"
