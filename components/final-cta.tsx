@@ -1,7 +1,7 @@
 'use client';
 
 export function FinalCta() {
-  const checkoutUrl = 'https://pay.wiapy.com/qKB59Gp-c5Yx';
+  const checkoutUrl = 'https://pay.wiapy.com/NkaIUpkR3OKB';
 
   const handleCheckout = () => {
     window.location.href = checkoutUrl;
