@@ -14,7 +14,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
           </div>
           <div className="w-full flex flex-col items-center gap-4 sm:gap-5">
             <h1 className="font-grotesk text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-pretty text-center max-w-4xl" style={{ color: '#FFFFFF' }}>
-              <span style={{ color: '#7BE0A3' }}>80 Treinos de Goleiros Prontos</span> para Aplicar em Campo
+              <span style={{ color: '#7BE0A3' }}>80 Treinos de Goleiros Prontos</span> para Aplicar 
             </h1>
             <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-2xl" style={{ color: '#D5DDD8' }}>
               Tenha treinos completos e organizados para trabalhar reflexo, quedas, posicionamento, saídas do gol, bolas aéreas, situações de 1x1, jogo com os pés e muito mais. Execução passo a passo, adaptações e diagramas visuais.
