@@ -15,7 +15,7 @@ export function FinalCta() {
               DÊ O PRÓXIMO PASSO E TENHA 80 TREINOS DE GOLEIROS SEMPRE À MÃO
             </h2>
             <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: '#D5DDD8' }}>
-              Escolha o objetivo, abra o treino e leve uma sessão organizada para o campo.
+              Mais variedade para seus goleiros e menos tempo perdido montando cada treino. 
             </p>
           </div>
 
