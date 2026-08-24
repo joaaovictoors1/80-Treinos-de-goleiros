@@ -20,7 +20,7 @@ export function Testimonials() {
       name: 'Lucas Ferreira',
       role: 'Treinador de Goleiros — Goiânia/GO',
       photo: '/images/testimonials/lucas-ferreira.webp',
-      objectPosition: '50% 18%',
+      objectPosition: '50% 22%',
     },
     {
       quote:
@@ -28,7 +28,7 @@ export function Testimonials() {
       name: 'Rafael Martins',
       role: 'Treinador de Categoria de Base — Brasília/DF',
       photo: '/images/testimonials/rafael-martins.webp',
-      objectPosition: '50% 20%',
+      objectPosition: '50% 26%',
     },
     {
       quote:
@@ -36,7 +36,7 @@ export function Testimonials() {
       name: 'Bruno Carvalho',
       role: 'Professor de Escolinha de Futebol — São Paulo/SP',
       photo: '/images/testimonials/bruno-carvalho.webp',
-      objectPosition: '50% 22%',
+      objectPosition: '50% 30%',
     },
   ];
 
