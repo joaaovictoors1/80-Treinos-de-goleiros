@@ -4,7 +4,9 @@ export function OfferSection({ onCtaClick }: { onCtaClick: () => void }) {
   const checkoutUrl = 'https://pay.cakto.com.br/b9xciy9_1070794';
 
   const handleCheckout = () => {
-    window.location.href = checkoutUrl;
+    const params = window.location.search;
+    const separator = checkoutUrl.includes('?') ? '&' : '?';
+    window.location.href = params ? `${checkoutUrl}${separator}${params.slice(1)}` : checkoutUrl;
   };
 
   const features = [
